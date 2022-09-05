@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*nav*/
+
+#brand {
+    color: white;
+}
+
+#brand:hover {
+    color: rgba(255, 255, 255, 0.711);
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color:white;
+    background-color: #af71d8ed;
+}
+
+/*formato index*/
+.carousel-item {
+    height: 90vh;
+}
+
+.bg-blue {
+    background-color:#9e57ce;
+}
+
+
+/*grid index*/
+#contenedor-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 1fr 1fr 200px;
+    grid-template-areas:
+    "hi hi"
+    "section section"
+    "main main"
+    "fi fi";
+}
+
+#header-index{
+    grid-area: hi;
+}
+
+#section-index{
+    grid-area: section;
+}
+
+#main-index{
+    grid-area: main;
+}
+
+#footer-index{
+    grid-area: fi;
+}
+
+/*grid about us*/
+#contenedor-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 1fr 200px;
+    grid-template-areas:
+    "header header"
+    "section-a section-a"
+    "footer footer";
+}
+
+#header-about{
+    grid-area: header;
+}
+
+#section-about{
+    grid-area: section-a;
+}
+
+#footer-about{
+    grid-area: footer;
+}
+
+
+/*fondo del body en general */
+body{
+    background-color: rgba(234, 216, 251, 0.868);
+}
+
+/*animaciones de cada pagina*/
+.bienvenida {
+    animation-name: bienvenida;
+    animation-iteration-count:initial;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bienvenida {
+    0%{
+    opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*estilo para about us*/
+.hey {
+    background-image: linear-gradient(to right,rgba(247,19,19,1) 0%, rgba(255,200,22,1) 18%, rgba(255,242,19,1) 38%, rgba(183,255,26,1) 57%, rgba(18,196,245,1) 79%, rgba(207,40,255,1) 100%);
+    padding: 5px;
+    border-radius: 40px;
+}
+
+/*our country*/
+#arg{
+    background-color: rgb(72, 159, 229);
+    height:60px;
+    color: white;
+}
+
+#bsas{
+    background-color: rgb(156, 189, 255);
+}
+
+#camp{
+    background-color: rgb(208, 223, 249);
+}
+
+/*travel destinations*/
+#galeria{
+    background-color: rgb(199, 88, 209);
+    height: 85px;
+    color: white;
+}
+
+#quote{
+    background-color: rgba(171, 171, 233, 0.693);
+}
+
+/*botones del sitio*/
+.btn-primary {
+    background-color:#9368d8; 
+    border: #5724a9;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover{
+    background-color: #ba98f0;
+    transform: scale(1.05);
+}
+
+/*Modificaciones del Footer*/
+footer {
+    color: white;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: smaller;
+    line-height: 1.3;
+    padding: 5px;
+    background-color: #9e57ce;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bi-instagram {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-instagram:hover{
+    color:  rgba(255, 255, 255, 0.415);
+}
+
+.bi-facebook {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-facebook:hover{
+    color:  rgba(255, 255, 255, 0.415);
+}
+
+.bi-tiktok {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-tiktok:hover {
+    color:  rgba(255, 255, 255, 0.415);
+}
+
+.bi-c-circle{
+    color: white;
+}
+
+/*media querie*/
+@media only screen and (max-width:1200px){
+    #about{
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+
+    }
+}
+
+@media only screen and (max-width:500px){
+ 
+    .carousel-item {
+        height:max-content;
+    }
+
+    .images{
+        height: 70%;
+        width: 80%;
+        margin-bottom: 5px;
+    }
+
+    .iframe {
+        width: fit-content;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #camp-full{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
