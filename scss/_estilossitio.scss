@@ -1,0 +1,82 @@
+/*body y nav generales del sitio*/ 
+body{
+    background-color: $color-secundario;
+
+    header{
+        nav{
+            div{
+                #brand {
+                    color: map-get($colores , "blanco" );
+                    &:hover {
+                    color: map-get($colores , "brandhover" );
+                    }
+                }
+                div{
+                    ul{
+                        li{
+                            .nav-link{
+                                color: map-get($colores , "blanco" );
+                        
+                                &:hover{
+                                    color:map-get($colores , "blanco" );
+                                    background-color: map-get($colores , "navhover" );
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    footer {
+        color: map-get($colores , "blanco" );
+        background-color: $color-principal;
+        text-align: center;
+        font-family:$font-footer;
+        font-weight: 500;
+        font-size: smaller;
+        line-height: 1.3;
+        padding: $pad/2;
+
+        .bold{
+            font-weight: bold;
+        }
+    
+        .bi-instagram {
+            color: map-get($colores , "blanco" );
+    
+            &:hover{
+                color:  map-get($colores , "rrsshover" );
+            }
+        }
+    
+        .bi-facebook, .bi-tiktok {
+            @extend .bi-instagram;
+        }
+
+        .bi-c-circle {
+            color: map-get($colores , "blanco" );
+            font-size: medium;
+            
+        }
+    }
+}
+
+
+
+/*botones del sitio*/
+.btn-primary {
+    background-color:$color-principal; 
+    border: #5724a9;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        background-color: $color-secundario;
+        color: $color-principal;
+        transform: scale(1.05);
+    }
+}
+
+
+

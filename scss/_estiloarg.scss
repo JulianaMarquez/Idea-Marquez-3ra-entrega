@@ -1,0 +1,14 @@
+/*our country*/
+#arg{
+    background-color: map-get($colores , "arg" );
+    height:$pad*6;
+    color: map-get($colores , "blanco" );
+}
+
+#bsas{
+    background-color: map-get($colores , "bsas" );
+}
+
+#camp{
+    background-color: map-get($colores , "camp" );
+}

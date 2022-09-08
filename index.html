@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
     
-    <title>WanderWorldSouls</title>
+    <title>WanderWorldSouls - Inicio</title>
+    <meta name="description" content="Welcome to WWS! We're Juli & Lai, an argentinian travel couple who loves discovering the world with our cameras.">
+    <meta name="keywords" content="viajes, fotografia, argentina, travel, couple, photography">
+
     <!--aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
@@ -25,8 +28,7 @@
 </head>
 
 <body>
-  <div id="contenedor-index">
-    <header id="header-index" class="bg-blue">
+    <header class="bg-blue">
 
       <!--enlaces para navegar por el sitio incluyendo logo-->
         <nav class="navbar navbar-expand-lg bg-blue fixed-top">
@@ -37,19 +39,19 @@
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
+                  <li data-aos="fade-right" class="nav-item">
                     <a class="nav-link" href="./index.html">Home</a>
                   </li>
-                  <li class="nav-item">
+                  <li data-aos="fade-right" class="nav-item">
                     <a class="nav-link" href="./pages/aboutus.html">About Us</a>
                   </li>
-                  <li class="nav-item">
+                  <li data-aos="fade-right" class="nav-item">
                     <a class="nav-link" href="./pages/travel-destinations.html">Travel Destinations</a>
                   </li>
-                  <li class="nav-item">
+                  <li data-aos="fade-right" class="nav-item">
                     <a class="nav-link" href="./pages/our-country.html">Our Country-ARG</a>
                   </li>
-                  <li class="nav-item">
+                  <li data-aos="fade-right" class="nav-item">
                     <a class="nav-link" href="./pages/contactus.html">Contact Us</a>
                   </li>
                 </ul>
@@ -59,7 +61,7 @@
     </header>
 
     <!--se agrega carousel con imagenes-->
-    <section id="section-index">
+    <section>
         <div class="container-fluid p-2">
           <div id="carouselExampleControls" class="carousel slide bienvenida" data-bs-ride="carousel">
             <div class="carousel-inner height: 100px">
@@ -88,8 +90,10 @@
         </div>
     </section>
 
+    <div><h1 id="wws" data-aos="fade-down" class="d-flex justify-content-center mt-5 mb-4">Wander World Souls</h1></div>
+
     <!--sección de información complementaria-->
-    <main id="main-index" data-aos="fade-down" class="d-flex justify-content-center mt-5 mb-4">
+    <main data-aos="fade-down" class="d-flex justify-content-center mt-5 mb-4">
       <div class="card mb-3" style="max-width: 50%; max-height: fit-content;">
         <div class="row g-0">
           <div class="col-md-6">
@@ -107,7 +111,7 @@
     </main>
 
     <!--Footer-->
-    <footer id="footer-index">
+    <footer>
             <p class="bold">Connect With Us On:</p>
             <p><a href="#" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
             <p><a href="#" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
@@ -119,7 +123,7 @@
                 <a href="#" target="_blank"><img class="insta" src="./images/insta.png" alt="insta" height="40px"></a>
             </div>
     </footer>
-  </div>
+  
 
     <!--bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

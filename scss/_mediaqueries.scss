@@ -1,0 +1,45 @@
+
+
+@mixin flex ($direction, $justify, $align, $ali){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    align-content: $ali;
+}
+
+/*media querie version tablet*/
+@media only screen and (max-width:1200px){
+    #about{
+        font-size: larger;
+        display: flex;
+        @include flex(column, center, center, center);
+        text-align: center;
+        flex-wrap: nowrap;
+    }
+}
+
+
+/*media querie version celular*/ 
+@media only screen and (max-width:500px){
+ 
+    .carousel-item {
+        height:max-content;
+    }
+
+    .images{
+        height: 70%;
+        width: 80%;
+        margin-bottom: $pad/2;
+    }
+
+    .iframe {
+        width: fit-content;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}

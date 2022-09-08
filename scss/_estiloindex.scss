@@ -1,0 +1,36 @@
+/*estilo index*/
+.bg-blue {
+    background-color:$color-principal;
+}
+.carousel-item {
+    height: 97vh;
+}
+
+body{
+    div{
+        #wws{
+            color: map-get($colores , "arg" );
+            @extend .hey;
+        }
+
+    }
+}
+
+
+
+main{
+    div{
+        h5{
+            color:$color-principal;
+
+            &::first-letter{
+                font-weight: bolder;
+                font-size: larger;
+            }
+            
+        }
+        p{
+        @extend h5;
+        }
+    }
+}

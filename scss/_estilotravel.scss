@@ -1,0 +1,10 @@
+/*travel destinations*/
+#galeria{
+    background-color: rgb(199, 88, 209);
+    height: ($pad*8)+5;
+    color: map-get($colores , "blanco" );
+}
+
+#quote{
+    background-color: rgba(171, 171, 233, 0.693);
+}
