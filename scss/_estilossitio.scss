@@ -1,12 +1,16 @@
 /*body y nav generales del sitio*/ 
 body{
     background-color: $color-secundario;
-
+    font-family: $font-body;
     header{
         nav{
             div{
                 #brand {
+                    font-family: $font-brand;
+                    font-weight: bolder;
+                    font-size: larger;
                     color: map-get($colores , "blanco" );
+                    
                     &:hover {
                     color: map-get($colores , "brandhover" );
                     }
@@ -21,6 +25,12 @@ body{
                                     color:map-get($colores , "blanco" );
                                     background-color: map-get($colores , "navhover" );
                                 }
+                            }
+                            .activ{
+                                font-weight: bolder;
+                                font-size: large;
+                                color: map-get($colores, "blanco");
+                                border-bottom: solid map-get($colores, "navhover");
                             }
                         }
                     }
@@ -68,15 +78,37 @@ body{
 /*botones del sitio*/
 .btn-primary {
     background-color:$color-principal; 
-    border: #5724a9;
     transition: all 0.2s ease-in-out;
+    border-style: none;
 
     &:hover{
         background-color: $color-secundario;
         color: $color-principal;
         transform: scale(1.05);
+        border: 2px solid $color-principal;
+    }
+}
+
+#boton {
+    @extend .btn-primary;
+    color: map-get($colores , "blanco" );
+
+    &:hover{
+        background-color: $color-secundario;
+        color: $color-principal;
+        transform: scale(1.05);
+        border: 2px solid;
     }
 }
 
 
+/*breadcrumb del sitio*/
+.breadcrumb-link{
+    text-decoration: none;
+    color: $color-principal;
+    font-weight: bold;
+    &:hover{
+        color: map-get($colores , "arg" );
+    }
+}
 

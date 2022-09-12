@@ -9,8 +9,8 @@
     <!--se agregan fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=PT+Serif:ital@0;1&family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
+
     <title>WanderWorldSouls - Inicio</title>
     <meta name="description" content="Welcome to WWS! We're Juli & Lai, an argentinian travel couple who loves discovering the world with our cameras.">
     <meta name="keywords" content="viajes, fotografia, argentina, travel, couple, photography">
@@ -33,14 +33,14 @@
       <!--enlaces para navegar por el sitio incluyendo logo-->
         <nav class="navbar navbar-expand-lg bg-blue fixed-top">
             <div class="container-fluid">
-              <a id="brand" class="navbar-brand fs-2" href="index.html">WanderWorldSouls</a>
+              <a data-aos="zoom-in" id="brand" class="navbar-brand fs-2" href="index.html"><i class="bi bi-camera-reels"></i> Wander World Souls</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li data-aos="fade-right" class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link activ" href="./index.html">Home</a>
                   </li>
                   <li data-aos="fade-right" class="nav-item">
                     <a class="nav-link" href="./pages/aboutus.html">About Us</a>
@@ -91,7 +91,44 @@
     </section>
 
     <!--Titulo introductorio-->
-    <div><h1 id="wws" data-aos="fade-down" class="d-flex justify-content-center mt-5 mb-4">Wander World Souls</h1></div>
+    <div data-aos="fade-down">
+      <h1 id="wws" class="d-flex justify-content-center mt-5 mb-4">Wander World Souls</h1>
+      <h3 class="imagen-intro p-5 d-flex justify-content-center align-items-center">Somos Juli & Lai, dos argentinas viajando por el mundo.</h3>
+    </div>
+
+    <!--galeria del Index-->
+    <section data-aos="zoom-in" class="container-fluid text-center pt-4">
+      <h3>Explore:</h3>
+    
+      <div class="galeria-index d-flex justify-content-center row p-3 mx-5">
+        <div class="col-md-2 mb-2">
+          <div class="card rounded-5">
+              <img src="./images/travel.jpg" class="card-img rounded-5" alt="travel" />
+          </div>
+          <a href="./pages/travel-destinations.html" class="btn btn-primary m-2">Travel The World</a>  
+        </div>
+        <div class="col-md-2 mb-2">
+          <div class="card rounded-5">
+            <img src="./images/Faro.png" class="card-img rounded-5" alt="ushuaia"/>
+          </div>
+          <a href="./pages/our-country.html" class="btn btn-primary m-2">Argentina</a>  
+        </div>
+        <div class="col-md-2 mb-2">
+          <div class="card rounded-5">
+            <img src="./images/campa.jpg" class="card-img rounded-5" alt="campanopolis"/>
+          </div>
+          <a href="./pages/our-country.html" class="btn btn-primary m-2">Lugares de Interés</a>  
+        </div>
+        <div class="col-md-2 mb-2">
+          <div class="card rounded-5">
+            <img src="./images/intro.JPG" class="card-img rounded-5" alt="nosotras"/>
+          </div>
+          <a href="./pages/aboutus.html" class="btn btn-primary m-2">Nosotras</a>  
+        </div>
+    
+      </div>
+    </section>
+
 
     <!--sección de información complementaria-->
     <main data-aos="fade-down" class="d-flex justify-content-center mt-5 mb-4">
@@ -102,8 +139,8 @@
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h5 class="card-title">BIENVENIDA</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deleniti, accusantium ad ratione error nesciunt! Inventore earum provident, dignissimos neque sunt similique culpa rem? Voluptatibus fugit molestiae cum amet neque nesciunt sed. Incidunt dignissimos eligendi aperiam ducimus laudantium, voluptates consectetur sint pariatur quae quia repellat debitis, commodi qui odio omnis!</p>
+              <h5 class="card-title">WELCOME</h5>
+              <p class="card-text">Welcome to WWS! We're Juli & Lai, an argentinian travel couple who loves discovering the world with our cameras.</p>
               <a href="./pages/aboutus.html" class="btn btn-primary">Learn More</a>
             </div>
           </div>
@@ -112,16 +149,16 @@
     </main>
 
     <!--Footer-->
-    <footer>
+    <footer class="container-fluid py-4">
             <p class="bold">Connect With Us On:</p>
-            <p><a href="#" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
-            <p><a href="#" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
-            <p><a href="#" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
+            <p><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
+            <p><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
+            <p><a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
             <p class="bold">Copyright <i class="bi bi-c-circle"></i> Wander World Souls</p>
             
             <!--link de acceso a redes sociales-->
             <div class="position-fixed bottom-0 end-0 p-2">
-                <a href="#" target="_blank"><img class="insta" src="./images/insta.png" alt="insta" height="40px"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="insta" src="./images/insta.png" alt="insta" height="40px"></a>
             </div>
     </footer>
   

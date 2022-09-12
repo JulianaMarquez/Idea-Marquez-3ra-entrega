@@ -5,10 +5,12 @@
     color: map-get($colores , "blanco" );
 }
 
-#bsas{
+.bsas, .campanopolis{
     background-color: map-get($colores , "bsas" );
 }
 
-#camp{
-    background-color: map-get($colores , "camp" );
+
+.galeria-campano{
+    background-color: map-get($colores , "negro" );
+    color: map-get($colores , "blanco" );
 }

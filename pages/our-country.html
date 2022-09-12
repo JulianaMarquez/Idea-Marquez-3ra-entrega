@@ -9,8 +9,8 @@
     <!--se agregan fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=PT+Serif:ital@0;1&family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
+
     <title>WanderWorldSouls - Servicios</title>
     <meta name="description" content="Mirá lo que podemos ofrecerte.">
     <meta name="keywords" content="viajes, fotografia, argentina, travel, couple, photography">
@@ -33,7 +33,7 @@
     <!--enlaces para navegar por el sitio incluyendo logo-->
     <nav class="navbar navbar-expand-lg bg-blue fixed-top">
         <div class="container-fluid">
-          <a id="brand" class="navbar-brand fs-2" href="../index.html">WanderWorldSouls</a>
+          <a data-aos="zoom-in" id="brand" class="navbar-brand fs-2" href="../index.html"><i class="bi bi-camera-reels"></i> Wander World Souls</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,7 +49,7 @@
                 <a class="nav-link" href="../pages/travel-destinations.html">Travel Destinations</a>
               </li>
               <li data-aos="fade-right" class="nav-item">
-                <a class="nav-link" href="../pages/our-country.html">Our Country-ARG</a>
+                <a class="nav-link activ" href="../pages/our-country.html">Our Country-ARG</a>
               </li>
               <li data-aos="fade-right" class="nav-item">
                 <a class="nav-link" href="../pages/contactus.html">Contact Us</a>
@@ -60,38 +60,67 @@
       </nav>
     </header>
 
+    <!--breadcrumb Arg-->
+    <section class="container-fluid pt-5 mt-2">
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb pt-5">
+          <li class="breadcrumb-item"><a class="breadcrumb-link" href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Our Country-ARG</li>
+        </ol>
+      </nav>
+    </section>
+
     <!--intro a la pag-->
-    <div id="arg" class="container-fluid text-center bienvenida mt-5 pt-4">
-        <div class="d-flex justify-content-center align-items-center">
-          <h1 class="fs-3">Argentina</h1>
-        </div>
+    <div id="arg" class="container-fluid text-center bienvenida pt-2 pb-2 d-flex justify-content-center align-items-center">
+        <h1 class="fs-3">Argentina</h1>
     </div>
 
     <!--seccion de Bs As-->
-    <div data-aos="zoom-in">
-    <section id="bsas">
+    <section data-aos="zoom-in" class="bsas">
         <div class="container-fluid text-center pt-2 pb-2">
-            <h5>Buenos Aires</h5>
-            <div class="pt-2 pb-2">
             <div class="card mb-3">
             <div class="card">
                 <div class="card-body">
-                <h5 class="card-title">Microcentro</h5>
+                <h5 class="card-title">Microcentro de Buenos Aires</h5>
                 <p class="card-text">Ofrecemos servicios de guía turística por el centro de Buenos Aires. Desde el famoso Obelisco, pasando por el Teatro Colón y hasta el Cementerio de la Recoleta. Incluso con el transporte público bonaerense para una experiencia más real.</p>
                 <p class="card-text"><small class="text-muted">Idiomas: español e inglés</small></p>
                 </div>
                 <img src="../images/horiz caba.jpeg" height="280px" class="card-img-bottom" alt="caba">
             </div>
             </div>
-            </div>
             <a href="../pages/contactus.html" class="btn btn-primary">Me Interesa</a>
         </div>
     </section>
-    </div>
+
+    <!--galeria de Microcentro-->
+    <section data-aos="zoom-in" class="galeria-campano container-fluid text-center pt-4">
+      <h5>Galería del Microcentro Bonaerense</h5>
+    
+      <div class="row p-2">
+        <div class="col-md-4 mb-2">
+          <div class="card rounded-5">
+              <img src="../images/caba.JPG" class="card-img rounded-5" alt="CABA" />
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card rounded-5">
+            <img src="../images/obelisco.jpg" class="card-img rounded-5" alt="CABA"/>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card rounded-5">
+            <img src="../images/bsas7.png" class="card-img rounded-5" alt="CABA"/>
+          </div>
+        </div>
+    
+      <div class="text-center">
+          <a class="btn btn-primary" href="../pages/contactus.html">Servicio Fotográfico</a>
+      </div>
+      </div>
+    </section>
 
     <!--Servicios en Campanopolis-->
-    <section data-aos="zoom-in" class="col text-center p-2">
-      <div id="camp" class="container-fluid p-2">
+    <section data-aos="zoom-in" class="campanopolis container-fluid text-center pt-2 pb-2">
           <div class="p-2">
             <div class="card mb-2">
               <div class="card h-100">
@@ -105,21 +134,51 @@
             </div>
           </div>
           <a href="../pages/contactus.html" class="btn btn-primary">Me Interesa</a>
-      </div>     
     </section>
 
+    <!--galeria de campanopolis-->
+    <section data-aos="zoom-in" class="galeria-campano container-fluid text-center pt-4">
+      <h5>Galería de Campanópolis</h5>
+
+      <div class="row p-2">
+        <div class="col-md-4 mb-2">
+          <div class="card rounded-5">
+            <img src="../images/campanopolis.JPG" class="card-img rounded-5" alt="Campanopolis1" />
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card rounded-5">
+            <img src="../images/campano.JPG" class="card-img rounded-5" alt="Campanopolis2"/>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card rounded-5">
+            <img src="../images/campano2.png" class="card-img rounded-5" alt="Campanopolis3"/>
+          </div>
+        </div>
+
+      <div class="text-center">
+        <a class="btn btn-primary" href="../pages/contactus.html">Servicio Fotográfico</a>
+      </div>
+    </div>
+    </section>
+
+
     <!--mas info de campanopolis-->
-    <section class="p-4">
+    <section class="p-4 galeria-campano">
         <p>Para más información, consulte aquí:</p>
                 <iframe width="400" height="300" class="iframe" src="https://campanopolis.com.ar/historia/" title="camoanopolis" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
     </section>
+  
+
+
 
     <!--Footer-->
-    <footer>
+    <footer class="container-fluid py-4">
       <p class="bold">Connect With Us On:</p>
-      <p><a href="#" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
-      <p><a href="#" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
-      <p><a href="#" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
+      <p><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
+      <p><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
+      <p><a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
       <p class="bold">Copyright <i class="bi bi-c-circle"></i> Wander World Souls</p>
     </footer>
 

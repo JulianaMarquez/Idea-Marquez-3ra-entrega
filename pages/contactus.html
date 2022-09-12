@@ -9,8 +9,8 @@
     <!--se agregan fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=PT+Serif:ital@0;1&family=Roboto:wght@100;300;400&family=Tangerine&display=swap" rel="stylesheet">
+
     <title>WanderWorldSouls - Contáctanos</title>
     <meta name="description" content="Para contactarte con nosotras, llená el formulario.">
     <meta name="keywords" content="viajes, fotografia, argentina, travel, couple, photography">
@@ -33,7 +33,7 @@
       <!--enlaces para navegar por el sitio incluyendo logo-->
         <nav class="navbar navbar-expand-lg bg-blue fixed-top">
             <div class="container-fluid">
-                <a id="brand" class="navbar-brand fs-2" href="../index.html">WanderWorldSouls</a>
+                <a data-aos="zoom-in" id="brand" class="navbar-brand fs-2" href="../index.html"><i class="bi bi-camera-reels"></i> Wander World Souls</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -52,7 +52,7 @@
                     <a class="nav-link" href="../pages/our-country.html">Our Country-ARG</a>
                   </li>
                   <li data-aos="fade-right" class="nav-item">
-                    <a class="nav-link" href="../pages/contactus.html">Contact Us</a>
+                    <a class="nav-link activ" href="../pages/contactus.html">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -60,8 +60,18 @@
         </nav>
     </header>
     
+    <!--breadcrumb Contact Us-->
+    <section class="container-fluid pt-5 mt-2">
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb pt-5 pb-2">
+          <li class="breadcrumb-item"><a class="breadcrumb-link" href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+      </nav>
+    </section>
+
      <!--Intro de la pagina-->
-    <h1 class="bienvenida d-flex align-items-center flex-column mb-3 mt-5 pt-5">Contact Us</h1>
+    <h1 class="bienvenida d-flex align-items-center flex-column mb-3 mt-5">Contact Us</h1>
 
     <section class="bienvenida container mt-4">
         <img src="../images/airplane-aircraft-travel-trip-min.jpg" class="img-fluid" alt="travel">
@@ -99,18 +109,18 @@
             <textarea class="form-control" placeholder="Insert your Message" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <div class="col-12 mt-4">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" id="boton" class="btn">Submit</button>
         </div>
       </fieldset>
     </form>
   </section>
 
     <!--Footer-->
-    <footer>
+    <footer class="container-fluid py-4">
       <p class="bold">Connect With Us On:</p>
-      <p><a href="#" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
-      <p><a href="#" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
-      <p><a href="#" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
+      <p><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram fs-6"></i></a> Instagram</p>
+      <p><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
+      <p><a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
       <p class="bold">Copyright <i class="bi bi-c-circle"></i> Wander World Souls</p>
     </footer>
 

@@ -9,28 +9,47 @@
 body{
     div{
         #wws{
-            color: map-get($colores , "arg" );
+            color: map-get($colores , "blanco" );
+            font-weight: bolder;
             @extend .hey;
-        }
-
-    }
-}
-
-
-
-main{
-    div{
-        h5{
-            color:$color-principal;
-
-            &::first-letter{
-                font-weight: bolder;
-                font-size: larger;
-            }
             
         }
-        p{
-        @extend h5;
+
+        .imagen-intro{
+            background-image: linear-gradient(rgba(34, 37, 42, 0.261), rgba(34, 37, 42, 0.5)), url(../images/ankorwat.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: map-get($colores , "blanco" );
+            font-family: $font-brand;
+            height: 75vh;
+        }
+
+    }
+
+    section{
+        .galeria-index{
+            border-bottom: solid rgba(0, 0, 0, 0.112);
+        }
+    }
+
+    main{
+        div{
+            h5{
+                color:$color-principal;
+    
+                &::first-letter{
+                    font-weight: bolder;
+                    font-size: larger;
+                }
+                
+            }
+            p{
+            @extend h5;
+            }
         }
     }
 }
+
+
+

@@ -9,8 +9,12 @@
 
 /*body y nav generales del sitio*/
 body {
-  background-color: rgba(234, 216, 251, 0.868); }
+  background-color: rgba(234, 216, 251, 0.868);
+  font-family: "PT Serif", serif; }
   body header nav div #brand {
+    font-family: "Ms Madi", cursive;
+    font-weight: bolder;
+    font-size: larger;
     color: white; }
     body header nav div #brand:hover {
       color: rgba(255, 255, 255, 0.711); }
@@ -19,6 +23,11 @@ body {
     body header nav div div ul li .nav-link:hover {
       color: white;
       background-color: #af71d8ed; }
+  body header nav div div ul li .activ {
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    border-bottom: solid #af71d8ed; }
   body footer {
     color: white;
     background-color: #9e57ce;
@@ -39,14 +48,31 @@ body {
       font-size: medium; }
 
 /*botones del sitio*/
-.btn-primary {
+.btn-primary, #boton {
   background-color: #9e57ce;
-  border: #5724a9;
-  transition: all 0.2s ease-in-out; }
-  .btn-primary:hover {
+  transition: all 0.2s ease-in-out;
+  border-style: none; }
+  .btn-primary:hover, #boton:hover {
     background-color: rgba(234, 216, 251, 0.868);
     color: #9e57ce;
-    transform: scale(1.05); }
+    transform: scale(1.05);
+    border: 2px solid #9e57ce; }
+
+#boton {
+  color: white; }
+  #boton:hover {
+    background-color: rgba(234, 216, 251, 0.868);
+    color: #9e57ce;
+    transform: scale(1.05);
+    border: 2px solid; }
+
+/*breadcrumb del sitio*/
+.breadcrumb-link {
+  text-decoration: none;
+  color: #9e57ce;
+  font-weight: bold; }
+  .breadcrumb-link:hover {
+    color: #b333e9; }
 
 /*estilo index*/
 .bg-blue {
@@ -56,11 +82,24 @@ body {
   height: 97vh; }
 
 body div #wws {
-  color: #489fe5; }
+  color: white;
+  font-weight: bolder; }
 
-main div h5, main div p {
+body div .imagen-intro {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.261), rgba(34, 37, 42, 0.5)), url(../images/ankorwat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: "Ms Madi", cursive;
+  height: 75vh; }
+
+body section .galeria-index {
+  border-bottom: solid rgba(0, 0, 0, 0.112); }
+
+body main div h5, body main div p {
   color: #9e57ce; }
-  main div h5::first-letter, main div p::first-letter {
+  body main div h5::first-letter, body main div p::first-letter {
     font-weight: bolder;
     font-size: larger; }
 
@@ -89,20 +128,29 @@ main div h5, main div p {
   height: 85px;
   color: white; }
 
+.card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease; }
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1%); }
+
 #quote {
   background-color: rgba(171, 171, 233, 0.693); }
 
 /*our country*/
 #arg {
-  background-color: #489fe5;
+  background-color: #b333e9;
   height: 60px;
   color: white; }
 
-#bsas {
-  background-color: #9cbdff; }
+.bsas, .campanopolis {
+  background-color: #db93f6; }
 
-#camp {
-  background-color: #d0dff9; }
+.galeria-campano {
+  background-color: black;
+  color: white; }
 
 /*media querie version tablet*/
 @media only screen and (max-width: 1200px) {
