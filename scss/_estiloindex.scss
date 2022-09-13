@@ -3,11 +3,22 @@
     background-color:$color-principal;
 }
 .carousel-item {
-    height: 97vh;
+    height: 85vh;
 }
 
 body{
     div{
+        .imagen-intro{
+            background-image: url(../images/ankorwat.jpg);
+            background-size: cover;
+            background-position: center;
+            color: map-get($colores , "blanco" );
+            font-family: $font-brand;
+            height: 75vh;
+        }
+    }
+
+    div{ 
         #wws{
             color: map-get($colores , "blanco" );
             font-weight: bolder;
@@ -15,22 +26,6 @@ body{
             
         }
 
-        .imagen-intro{
-            background-image: linear-gradient(rgba(34, 37, 42, 0.261), rgba(34, 37, 42, 0.5)), url(../images/ankorwat.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            color: map-get($colores , "blanco" );
-            font-family: $font-brand;
-            height: 75vh;
-        }
-
-    }
-
-    section{
-        .galeria-index{
-            border-bottom: solid rgba(0, 0, 0, 0.112);
-        }
     }
 
     main{
@@ -49,6 +44,13 @@ body{
             }
         }
     }
+
+    .section-carousel, .galeria-explore{
+        background-color: map-get($colores , "negro" );
+        color: map-get($colores , "blanco" );
+    }
+    
+
 }
 
 

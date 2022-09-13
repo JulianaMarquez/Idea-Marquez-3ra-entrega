@@ -1,4 +1,20 @@
 /*estilo para about us*/
+.imagen-about{
+    background-image: url(../images/aboutus-camb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    background-position: 40% 57%;
+
+    .titulo-about{
+        color: map-get($colores , "negro" );
+        background-color: rgba(255, 255, 255, 0.559);
+        border-radius: 40px;
+        padding: 10px;
+    }
+}
+
 .hey {
     background-image: linear-gradient(to right,rgba(247,19,19,1) 0%, rgba(255,200,22,1) 18%, rgba(255,242,19,1) 38%, rgba(183,255,26,1) 57%, rgba(18,196,245,1) 79%, rgba(207,40,255,1) 100%);
     padding: $pad/2;

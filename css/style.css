@@ -79,29 +79,29 @@ body {
   background-color: #9e57ce; }
 
 .carousel-item {
-  height: 97vh; }
-
-body div #wws {
-  color: white;
-  font-weight: bolder; }
+  height: 85vh; }
 
 body div .imagen-intro {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.261), rgba(34, 37, 42, 0.5)), url(../images/ankorwat.jpg);
+  background-image: url(../images/ankorwat.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
   color: white;
   font-family: "Ms Madi", cursive;
   height: 75vh; }
 
-body section .galeria-index {
-  border-bottom: solid rgba(0, 0, 0, 0.112); }
+body div #wws {
+  color: white;
+  font-weight: bolder; }
 
 body main div h5, body main div p {
   color: #9e57ce; }
   body main div h5::first-letter, body main div p::first-letter {
     font-weight: bolder;
     font-size: larger; }
+
+body .section-carousel, body .galeria-explore {
+  background-color: black;
+  color: white; }
 
 /*animaciones de cada pagina*/
 .bienvenida {
@@ -117,6 +117,19 @@ body main div h5, body main div p {
     opacity: 1; } }
 
 /*estilo para about us*/
+.imagen-about {
+  background-image: url(../images/aboutus-camb.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 60vh;
+  background-position: 40% 57%; }
+  .imagen-about .titulo-about {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.559);
+    border-radius: 40px;
+    padding: 10px; }
+
 .hey, body div #wws {
   background-image: linear-gradient(to right, #f71313 0%, #ffc816 18%, #fff213 38%, #b7ff1a 57%, #12c4f5 79%, #cf28ff 100%);
   padding: 5px;
