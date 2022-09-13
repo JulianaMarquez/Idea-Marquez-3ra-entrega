@@ -87,7 +87,7 @@ body div .imagen-intro {
   background-position: center;
   color: white;
   font-family: "Ms Madi", cursive;
-  height: 75vh; }
+  height: 80vh; }
 
 body div #wws {
   color: white;
@@ -176,10 +176,12 @@ body .section-carousel, body .galeria-explore {
     align-items: center;
     align-content: center;
     text-align: center;
-    flex-wrap: nowrap; } }
+    flex-wrap: nowrap; }
+  .img-thai {
+    height: 70vh; } }
 
 /*media querie version celular*/
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
   .carousel-item {
     height: max-content; }
   .images {
@@ -188,12 +190,11 @@ body .section-carousel, body .galeria-explore {
     margin-bottom: 5px; }
   .iframe {
     width: fit-content; }
-  #about {
-    display: flex;
-    flex-direction: column-reverse; }
   .imagen-about {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 60vh;
-    background-position: center; } }
+    background-position: center; }
+  .img-thai {
+    height: 70vh; } }

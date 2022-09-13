@@ -17,11 +17,14 @@
         text-align: center;
         flex-wrap: nowrap;
     }
+    .img-thai{
+        height: 70vh;
+    }
 }
 
 
 /*media querie version celular*/ 
-@media only screen and (min-width:500px){
+@media only screen and (max-width:500px){
  
     .carousel-item {
         height:max-content;
@@ -37,10 +40,6 @@
         width: fit-content;
     }
 
-    #about{
-        display: flex;
-        flex-direction: column-reverse;
-    }
 
     .imagen-about{
         background-size: cover;
@@ -48,6 +47,10 @@
         background-attachment: fixed;
         height: 60vh;
         background-position: center;
+    }
+
+    .img-thai{
+        height: 70vh;
     }
 
 }
