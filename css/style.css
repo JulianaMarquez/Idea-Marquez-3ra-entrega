@@ -192,6 +192,6 @@ body .section-carousel, body .galeria-explore {
   .iframe {
     width: fit-content; }
   .imagen-about {
-    background-position: center; }
+    background-position: 100% 50%; }
   .img-thai {
     height: 70vh; } }
