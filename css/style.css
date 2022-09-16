@@ -133,6 +133,48 @@ body .section-carousel, body .galeria-explore {
   padding: 5px;
   border-radius: 40px; }
 
+.seccion-adivina {
+  background-color: black;
+  color: white; }
+
+.cardo {
+  position: relative;
+  width: 40vh;
+  height: 45vh;
+  margin: 20px; }
+  .cardo:hover .front {
+    transform: perspective(600px) rotateY(180deg); }
+  .cardo:hover .back {
+    transform: perspective(600px) rotateY(360deg); }
+  .cardo .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s; }
+  .cardo .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px black; }
+    .cardo .front .card-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .cardo .back {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: #9e57ce;
+    padding: 15px;
+    color: white;
+    box-shadow: 0 5px 10px black; }
+    .cardo .back h4 {
+      font-size: 30px;
+      margin-top: 20px;
+      letter-spacing: 2px; }
+    .cardo .back p {
+      letter-spacing: 1px; }
+
 /*travel destinations*/
 #galeria {
   background-color: #c758d1;
