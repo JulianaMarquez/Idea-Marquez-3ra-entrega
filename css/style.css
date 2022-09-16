@@ -192,10 +192,6 @@ body .section-carousel, body .galeria-explore {
   .iframe {
     width: fit-content; }
   .imagen-about {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 60vh;
     background-position: center; }
   .img-thai {
     height: 70vh; } }
