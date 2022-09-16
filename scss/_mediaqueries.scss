@@ -20,6 +20,7 @@
     .img-thai{
         height: 70vh;
     }
+
 }
 
 
@@ -42,10 +43,7 @@
 
 
     .imagen-about{
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        height: 60vh;
+        background-attachment: unset;
         background-position: center;
     }
 

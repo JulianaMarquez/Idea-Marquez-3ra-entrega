@@ -22,7 +22,8 @@ body {
     color: white; }
     body header nav div div ul li .nav-link:hover {
       color: white;
-      background-color: #af71d8ed; }
+      background-color: #af71d8ed;
+      border-radius: 15px; }
   body header nav div div ul li .activ {
     font-weight: bolder;
     font-size: large;

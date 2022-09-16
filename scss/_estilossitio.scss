@@ -24,6 +24,7 @@ body{
                                 &:hover{
                                     color:map-get($colores , "blanco" );
                                     background-color: map-get($colores , "navhover" );
+                                    border-radius: 15px;
                                 }
                             }
                             .activ{
