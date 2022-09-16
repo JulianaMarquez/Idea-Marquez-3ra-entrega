@@ -79,16 +79,13 @@ body {
 .bg-blue {
   background-color: #9e57ce; }
 
-.carousel-item {
-  height: 85vh; }
-
 body div .imagen-intro {
   background-image: url(../images/ankorwat.jpg);
   background-size: cover;
   background-position: center;
   color: white;
   font-family: "Ms Madi", cursive;
-  height: 80vh; }
+  height: 85vh; }
 
 body div #wws {
   color: white;
@@ -192,6 +189,6 @@ body .section-carousel, body .galeria-explore {
   .iframe {
     width: fit-content; }
   .imagen-about {
-    background-position: 100% 50%; }
+    background-position: center; }
   .img-thai {
     height: 70vh; } }
