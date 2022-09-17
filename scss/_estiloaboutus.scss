@@ -63,12 +63,11 @@
         color: map-get($colores , "blanco" );
         box-shadow: 0 5px 10px black;
         h4{
-            font-size: 30px;
-            margin-top: 20px;
+            font-size: 20px;
             letter-spacing: 2px;
         }
         p{
-            letter-spacing: 1px;
+            font-size: small;
         }
     }
 }

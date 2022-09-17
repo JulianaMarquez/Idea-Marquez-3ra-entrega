@@ -169,11 +169,10 @@ body .section-carousel, body .galeria-explore {
     color: white;
     box-shadow: 0 5px 10px black; }
     .cardo .back h4 {
-      font-size: 30px;
-      margin-top: 20px;
+      font-size: 20px;
       letter-spacing: 2px; }
     .cardo .back p {
-      letter-spacing: 1px; }
+      font-size: small; }
 
 /*travel destinations*/
 #galeria {
