@@ -73,7 +73,7 @@
                 </div>
 
                 <div class="bienvenida col-xs-8 col-sm-11 col-md-8 col-lg-9 d-flex flex-column justify-content-center align-items-center text-center mt-4">
-                    <h3 class="mb-4">Lo siento, no hemos podido encontrar la página que buscas.</h3>
+                    <h3 class="mb-4">Lo sentimos, no hemos podido encontrar la página que buscas.</h3>
                     <h5>Podés dirigirte a WonderWorldSouls haciendo click aquí:  
                         <a href="../index.html" class="btn btn-primary">WanderWorldSouls</a>
                     </h5> 
