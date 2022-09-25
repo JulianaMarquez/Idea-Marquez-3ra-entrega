@@ -1,4 +1,5 @@
-/*reset*/
+@charset "UTF-8";
+/*Reset*/
 * {
   margin: 0px;
   padding: 0px;
@@ -7,7 +8,7 @@
     background-color: black;
     color: #9e57ce; }
 
-/*body y nav generales del sitio*/
+/*Estilos Body y Nav Generales del Sitio*/
 body {
   background-color: rgba(234, 216, 251, 0.868);
   font-family: "PT Serif", serif; }
@@ -75,7 +76,7 @@ body {
   .breadcrumb-link:hover {
     color: #b333e9; }
 
-/*estilo index*/
+/*Estilo para el Index*/
 .bg-blue {
   background-color: #9e57ce; }
 
@@ -101,20 +102,7 @@ body main .section-carousel, body main .galeria-explore {
   background-color: black;
   color: white; }
 
-/*animaciones de cada pagina*/
-.bienvenida {
-  animation-name: bienvenida;
-  animation-iteration-count: initial;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out; }
-
-@keyframes bienvenida {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-/*estilo para about us*/
+/*Estilo para About Us*/
 .imagen-about {
   background-image: url(../images/aboutus-camb.png);
   background-size: cover;
@@ -174,7 +162,7 @@ body main .section-carousel, body main .galeria-explore {
     .cardo .back p {
       font-size: small; }
 
-/*travel destinations*/
+/*Estilos para Travel Destinations*/
 #galeria {
   background-color: #c758d1;
   height: 85px;
@@ -191,7 +179,7 @@ body main .section-carousel, body main .galeria-explore {
 #quote {
   background-color: rgba(171, 171, 233, 0.693); }
 
-/*our country*/
+/*Estilo para Our Country*/
 #arg {
   background-color: #b333e9;
   height: 60px;
@@ -207,6 +195,7 @@ body main .section-carousel, body main .galeria-explore {
 .iframe {
   width: 40%; }
 
+/*Estilo para Error404*/
 .imagen-error {
   background-image: url(../images/error.png);
   background-size: cover;
@@ -215,7 +204,20 @@ body main .section-carousel, body main .galeria-explore {
   font-family: "Ms Madi", cursive;
   height: 70vh; }
 
-/*media querie version tablet*/
+/*Animaciones de cada Página*/
+.bienvenida {
+  animation-name: bienvenida;
+  animation-iteration-count: initial;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+@keyframes bienvenida {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*Media Querie Versión Tablet*/
 @media only screen and (max-width: 1200px) {
   #about {
     font-size: larger;
@@ -234,7 +236,7 @@ body main .section-carousel, body main .galeria-explore {
   .cardo .back p {
     font-size: 10px; } }
 
-/*media querie version celular*/
+/*Media Querie Versión Celular*/
 @media only screen and (max-width: 500px) {
   .carousel-item {
     height: max-content; }
