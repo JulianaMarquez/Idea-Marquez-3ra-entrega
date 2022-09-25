@@ -29,32 +29,32 @@
 
 <body>
     <header class="bg-blue">
-      <!--Enlaces para navegar por el sitio incluyendo logo-->
+      <!--Menú de Navegación y Logo-->
       <nav class="navbar navbar-expand-lg bg-blue fixed-top">
         <div class="container-fluid">
             <a data-aos="zoom-in" id="brand" class="navbar-brand fs-2" href="../index.html"><i class="bi bi-camera-reels"></i> Wander World Souls</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li data-aos="fade-right" class="nav-item">
-                <a class="nav-link" href="../index.html">Home</a>
-              </li>
-              <li data-aos="fade-right" class="nav-item">
-                <a class="nav-link" href="../pages/aboutus.html">About Us</a>
-              </li>
-              <li data-aos="fade-right" class="nav-item">
-                <a class="nav-link" href="../pages/travel-destinations.html">Travel Destinations</a>
-              </li>
-              <li data-aos="fade-right" class="nav-item">
-                <a class="nav-link" href="../pages/our-country.html">Our Country-ARG</a>
-              </li>
-              <li data-aos="fade-right" class="nav-item">
-                <a class="nav-link" href="../pages/contactus.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li data-aos="fade-right" class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li data-aos="fade-right" class="nav-item">
+                    <a class="nav-link" href="../pages/aboutus.html">About Us</a>
+                  </li>
+                  <li data-aos="fade-right" class="nav-item">
+                    <a class="nav-link" href="../pages/travel-destinations.html">Travel Destinations</a>
+                  </li>
+                  <li data-aos="fade-right" class="nav-item">
+                    <a class="nav-link" href="../pages/our-country.html">Our Country-ARG</a>
+                  </li>
+                  <li data-aos="fade-right" class="nav-item">
+                    <a class="nav-link" href="../pages/contactus.html">Contact Us</a>
+                  </li>
+                </ul>
+            </div>
         </div>
       </nav>
     </header>
@@ -62,7 +62,7 @@
     <main>
         <!--Cover Error 404-->
         <div class="bienvenida container-fluid p-0" data-aos="fade-down">
-            <h1 class="imagen-error text-center d-flex justify-content-center align-items-center">Error 404</h1>
+            <h1 class="imagen-error text-center d-flex justify-content-center align-items-center">ERROR 404</h1>
         </div>
 
         <!--Texto explicativo y redirección al Inicio, About Us y Contact Us-->
