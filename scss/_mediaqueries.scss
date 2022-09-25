@@ -21,6 +21,18 @@
         height: 70vh;
     }
 
+    .iframe {
+        width: 60%;
+    }
+
+    .cardo{
+        .back{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+
 }
 
 
@@ -38,7 +50,7 @@
     }
 
     .iframe {
-        width: fit-content;
+        width: 80%;
     }
 
     .imagen-about{
@@ -47,6 +59,14 @@
 
     .img-thai{
         height: 70vh;
+    }
+
+    .cardo{
+        .back{
+            p{
+                font-size: 10px;
+            }
+        }
     }
 
 }

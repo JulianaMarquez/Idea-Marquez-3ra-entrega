@@ -5,50 +5,51 @@
 
 
 body{
-    div{
-        .imagen-intro{
-            background-image: url(../images/ankorwat.jpg);
-            background-size: cover;
-            background-position: center;
-            color: map-get($colores , "blanco" );
-            font-family: $font-brand;
-            height: 85vh;
-        }
-    }
-
-    div{ 
-        #wws{
-            color: map-get($colores , "blanco" );
-            font-weight: bolder;
-            @extend .hey;
-            
-        }
-
-    }
-
     main{
         div{
-            h5{
-                color:$color-principal;
-    
-                &::first-letter{
-                    font-weight: bolder;
-                    font-size: larger;
-                }
-                
-            }
-            p{
-            @extend h5;
+            .imagen-intro{
+                background-image: url(../images/ankorwat.jpg);
+                background-size: cover;
+                background-position: center;
+                color: map-get($colores , "blanco" );
+                font-family: $font-brand;
+                height: 85vh;
             }
         }
-    }
-
-    .section-carousel, .galeria-explore{
-        background-color: map-get($colores , "negro" );
-        color: map-get($colores , "blanco" );
+    
+        div{ 
+            #wws{
+                color: map-get($colores , "blanco" );
+                font-weight: bolder;
+                @extend .hey;
+                
+            }
+    
+        }
+    
+        section{
+            div{
+                #welcome-title{
+                    color:$color-principal;
+        
+                    &::first-letter{
+                        font-weight: bolder;
+                        font-size: larger;
+                    }
+                    
+                }
+                #welcome-text{
+                @extend #welcome-title;
+                }
+            }
+        }
+    
+        .section-carousel, .galeria-explore{
+            background-color: map-get($colores , "negro" );
+            color: map-get($colores , "blanco" );
+        }
     }
     
-
 }
 
 

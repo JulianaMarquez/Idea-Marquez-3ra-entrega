@@ -79,7 +79,7 @@ body {
 .bg-blue {
   background-color: #9e57ce; }
 
-body div .imagen-intro {
+body main div .imagen-intro {
   background-image: url(../images/ankorwat.jpg);
   background-size: cover;
   background-position: center;
@@ -87,17 +87,17 @@ body div .imagen-intro {
   font-family: "Ms Madi", cursive;
   height: 85vh; }
 
-body div #wws {
+body main div #wws {
   color: white;
   font-weight: bolder; }
 
-body main div h5, body main div p {
+body main section div #welcome-title, body main section div #welcome-text {
   color: #9e57ce; }
-  body main div h5::first-letter, body main div p::first-letter {
+  body main section div #welcome-title::first-letter, body main section div #welcome-text::first-letter {
     font-weight: bolder;
     font-size: larger; }
 
-body .section-carousel, body .galeria-explore {
+body main .section-carousel, body main .galeria-explore {
   background-color: black;
   color: white; }
 
@@ -128,7 +128,7 @@ body .section-carousel, body .galeria-explore {
     border-radius: 40px;
     padding: 10px; }
 
-.hey, body div #wws {
+.hey, body main div #wws {
   background-image: linear-gradient(to right, #f71313 0%, #ffc816 18%, #fff213 38%, #b7ff1a 57%, #12c4f5 79%, #cf28ff 100%);
   padding: 5px;
   border-radius: 40px; }
@@ -204,6 +204,9 @@ body .section-carousel, body .galeria-explore {
   background-color: black;
   color: white; }
 
+.iframe {
+  width: 40%; }
+
 /*media querie version tablet*/
 @media only screen and (max-width: 1200px) {
   #about {
@@ -217,7 +220,11 @@ body .section-carousel, body .galeria-explore {
     text-align: center;
     flex-wrap: nowrap; }
   .img-thai {
-    height: 70vh; } }
+    height: 70vh; }
+  .iframe {
+    width: 60%; }
+  .cardo .back p {
+    font-size: 10px; } }
 
 /*media querie version celular*/
 @media only screen and (max-width: 500px) {
@@ -228,8 +235,10 @@ body .section-carousel, body .galeria-explore {
     width: 80%;
     margin-bottom: 5px; }
   .iframe {
-    width: fit-content; }
+    width: 80%; }
   .imagen-about {
     background-position: center; }
   .img-thai {
-    height: 70vh; } }
+    height: 70vh; }
+  .cardo .back p {
+    font-size: 10px; } }
