@@ -207,6 +207,14 @@ body main .section-carousel, body main .galeria-explore {
 .iframe {
   width: 40%; }
 
+.imagen-error {
+  background-image: url(../images/error.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Ms Madi", cursive;
+  height: 70vh; }
+
 /*media querie version tablet*/
 @media only screen and (max-width: 1200px) {
   #about {

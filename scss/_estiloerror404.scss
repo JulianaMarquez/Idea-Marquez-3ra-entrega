@@ -1,0 +1,8 @@
+.imagen-error{
+    background-image: url(../images/error.png);
+    background-size: cover;
+    background-position: center;
+    color: map-get($colores , "blanco" );
+    font-family: $font-brand;
+    height: 70vh;
+}

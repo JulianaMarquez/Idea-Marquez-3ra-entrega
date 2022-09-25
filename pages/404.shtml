@@ -35,14 +35,14 @@
             <a data-aos="zoom-in" id="brand" class="navbar-brand fs-2" href="../index.html"><i class="bi bi-camera-reels"></i> Wander World Souls</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+            </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li data-aos="fade-right" class="nav-item">
                 <a class="nav-link" href="../index.html">Home</a>
               </li>
               <li data-aos="fade-right" class="nav-item">
-                <a class="nav-link activ" href="../pages/aboutus.html">About Us</a>
+                <a class="nav-link" href="../pages/aboutus.html">About Us</a>
               </li>
               <li data-aos="fade-right" class="nav-item">
                 <a class="nav-link" href="../pages/travel-destinations.html">Travel Destinations</a>
@@ -60,11 +60,34 @@
     </header>
 
     <main>
-        <!--cover-->
-        <div class="container-fluid p-0" data-aos="fade-down">
-            <h1 class="text-center fs-3 d-flex justify-content-center align-items-center">Error 404</h1>
+        <!--Cover Error 404-->
+        <div class="bienvenida container-fluid p-0" data-aos="fade-down">
+            <h1 class="imagen-error text-center d-flex justify-content-center align-items-center">Error 404</h1>
         </div>
 
+        <!--Texto explicativo y redirección al Inicio, About Us y Contact Us-->
+        <section class="container py-4">
+            <div class="row mb-5 mt-5">
+                <div class="bienvenida col-xs-8 col-sm-11 col-md-4 col-lg-3 d-flex justify-content-center align-items-center text-center">
+                    <h2 class="hey mb-5 card">OOPS!</h2>
+                </div>
+
+                <div class="bienvenida col-xs-8 col-sm-11 col-md-8 col-lg-9 d-flex flex-column justify-content-center align-items-center text-center mt-4">
+                    <h3 class="mb-4">Lo siento, no hemos podido encontrar la página que buscas.</h3>
+                    <h5>Podés dirigirte a WonderWorldSouls haciendo click aquí:  
+                        <a href="../index.html" class="btn btn-primary">WanderWorldSouls</a>
+                    </h5> 
+
+                    <h5 class="mt-2">Si querés saber más acerca de nosotras, haz click aquí:  
+                        <a href="./aboutus.html" class="btn btn-primary">About Us</a>
+                    </h5> 
+
+                    <h5 class="mt-2">Para escribirnos, haz click aquí:  
+                        <a href="./contactus.html" class="btn btn-primary">Contact Us</a>
+                    </h5> 
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--Footer-->
@@ -74,11 +97,6 @@
         <p><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook fs-6"></i></a> Facebook</p>
         <p><a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok fs-6"></i></a> Tiktok</p>
         <p class="bold">Copyright <i class="bi bi-c-circle"></i> Wander World Souls</p>
-            
-        <!--link de acceso a redes sociales-->
-        <div class="position-fixed bottom-0 end-0 p-2">
-            <a href="https://www.instagram.com" target="_blank"><img class="insta" src="./images/insta.png" alt="instagram" height="40px"></a>
-        </div>
     </footer>
 
 
