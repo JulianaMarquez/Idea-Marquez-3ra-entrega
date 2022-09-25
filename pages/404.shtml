@@ -69,11 +69,11 @@
         <section class="container py-4">
             <div class="row mb-5 mt-5">
                 <div class="bienvenida col-xs-8 col-sm-11 col-md-4 col-lg-3 d-flex justify-content-center align-items-center text-center">
-                    <h2 class="hey mb-5 card">OOPS!</h2>
+                    <h2 class="hey error-404 mb-5 card">Ooops...</h2>
                 </div>
 
                 <div class="bienvenida col-xs-8 col-sm-11 col-md-8 col-lg-9 d-flex flex-column justify-content-center align-items-center text-center mt-4">
-                    <h3 class="mb-4">Lo sentimos, no hemos podido encontrar la página que buscas.</h3>
+                    <h3 class="mb-4">Lo sentimos, no hemos podido encontrar la página que buscás.</h3>
                     <h5>Podés dirigirte a WonderWorldSouls haciendo click aquí:  
                         <a href="../index.html" class="btn btn-primary">WanderWorldSouls</a>
                     </h5> 

@@ -5,5 +5,10 @@
     background-position: center;
     color: map-get($colores , "blanco" );
     font-family: $font-brand;
+    font-weight: bolder;
     height: 70vh;
+}
+
+.error-404{
+    font-weight: bolder;
 }

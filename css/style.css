@@ -202,7 +202,11 @@ body main .section-carousel, body main .galeria-explore {
   background-position: center;
   color: white;
   font-family: "Ms Madi", cursive;
+  font-weight: bolder;
   height: 70vh; }
+
+.error-404 {
+  font-weight: bolder; }
 
 /*Animaciones de cada Página*/
 .bienvenida {
